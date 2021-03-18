@@ -1,0 +1,143 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+}
+
+.bodyChangeBackground {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000), to(purple));
+  background: linear-gradient(#000, purple);
+  background-position: left;
+}
+
+header {
+  margin: 5vh 10vw;
+  border: 1px solid lightblue;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5vh 2vw;
+}
+
+header nav .items {
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .items li {
+  list-style: none;
+  color: violet;
+  font-family: "Tahoma";
+}
+
+.heading {
+  border: 1px solid lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 5vh 10vw;
+  padding: 5vh 0;
+}
+
+.heading .section-heading {
+  width: 40vw;
+}
+
+.heading .section-heading h1 {
+  color: violet;
+  font-size: 3rem;
+}
+
+.heading .section-heading p {
+  margin-top: 5vh;
+  color: #fff;
+  font-size: large;
+}
+
+main {
+  border: 1px solid lightblue;
+  margin: 5vh 10vw;
+}
+
+main .round-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .round-image .round-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 5vh;
+}
+
+main .round-image .round-item img {
+  border-radius: 50%;
+  padding: 0 5vw;
+}
+
+main .round-image .round-item span {
+  color: violet;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 5vh;
+}
+
+main .round-image .more {
+  margin: 5vh 0;
+  width: 45vw;
+  height: 10vh;
+  border: 1px solid lightblue;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .round-image .more span {
+  font-size: 2rem;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

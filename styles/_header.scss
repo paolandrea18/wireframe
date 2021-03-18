@@ -1,0 +1,41 @@
+header {
+  margin: 5vh 10vw;
+  border: 1px solid $secondFontColor;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 2vw;
+    #logo {
+    }
+    .items {
+      width: 30vw;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      li {
+        list-style: none;
+        color: $firstFontColor;
+        font-family: $fontFamily;
+      }
+    }
+  }
+}
+.heading {
+  border: 1px solid $secondFontColor;
+  display: flex;
+  justify-content: space-around;
+  margin: 5vh 10vw;
+  padding: 5vh 0;
+  .section-heading {
+    width: 40vw;
+    h1 {
+      color: $firstFontColor;
+      font-size: 3rem;
+    }
+    p {
+      margin-top: 5vh;
+      color: #fff;
+      font-size: large;
+    }
+  }
+}
